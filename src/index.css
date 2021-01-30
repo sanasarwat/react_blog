@@ -6,6 +6,11 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+body {
+  height: 100vh;
+}
+
+/*Nav*/
 
 .navbar {
   background-color: #fff !important;
@@ -14,9 +19,11 @@
   color: #3e8f7b !important;
   font-size: 1.5rem !important;
 }
-.navbar a {
+
+.navbar li {
   font-size: 1.1rem;
   text-transform: capitalize;
+  display: flex;
 }
 .active-class {
   font-weight: bold;
@@ -25,6 +32,7 @@
 .navbar a:hover {
   color: #3e8f7b !important;
 }
+
 /* header */
 
 #header {
@@ -39,6 +47,7 @@
 #header .brand-name {
   color: #3e8f7b;
 }
+
 #header h2 {
   color: #3e8f7b;
   font-size: 16px;
@@ -47,11 +56,11 @@
 #header .btn-get-started {
   border-radius: 50px;
   background-color: #3e8f7b;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 700;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 12px 15px;
   transition: 1.2s;
   color: white;
   border: 2px solid #3e8f7b;
@@ -62,11 +71,7 @@
   background-color: #fff;
   color: #3e8f7b;
 }
-.header-img {
-  /* text-align: right; */
-  height: auto;
-  width: 45%;
-  overflow: hidden;
+#header .header-img {
   text-align: center;
 }
 .animated {
@@ -92,14 +97,56 @@
     transform: translateY(-10px);
   }
 }
-
+/**Footer**/
 .page_footer {
-  position: relative;
-  width: 100%;
+  position: absolute;
   height: auto;
-  text-align: center;
+  width: 100%;
+  margin-top: 55px;
   background-color: #3e8f7b;
 }
 .page_footer p {
-  line-height: 40px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*contact form*/
+.cnt-btn {
+  border-radius: 50px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 15px;
+  transition: 1.2s;
+  color: #3e8f7b;
+  border: 2px solid #3e8f7b;
+  text-decoration: none;
+}
+
+.cnt-btn:hover {
+  background-color: #3e8f7b;
+  color: #fff;
+}
+
+/*services*/
+.srv-btn {
+  background-color: #3e8f7b;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 15px;
+  transition: 0.9s;
+  color: white;
+  border: 2px solid #3e8f7b;
+  text-decoration: none;
+}
+
+.srv-btn:hover {
+  background-color: #fff;
+  color: #3e8f7b;
 }

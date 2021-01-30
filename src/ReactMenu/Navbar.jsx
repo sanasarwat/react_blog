@@ -27,7 +27,7 @@ const Navbar = () => {
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
                 >
-                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center">
                     <li className="nav-item">
                       <NavLink
                         exact

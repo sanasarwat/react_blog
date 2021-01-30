@@ -14,7 +14,7 @@ const Card = (props) => {
           <div className="card-body">
             <h5 className="card-title">{props.cname}</h5>
             <p className="card-text">{props.cdetail}</p>
-            <NavLink to="/" className="btn btn-primary">
+            <NavLink to="/" className="srv-btn">
               Go somewhere
             </NavLink>
           </div>

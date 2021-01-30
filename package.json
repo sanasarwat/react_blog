@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  // "homepage": "https://sanasarwat.github.io/react_blog",
+  "homepage": "https://sanasarwat.github.io/react_blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,9 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
-    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap": "^5.0.0-beta1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -21,8 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    // "predeploy": "npm run build",
-    // "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
