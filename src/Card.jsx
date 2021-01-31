@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 const Card = (props) => {
   return (
     <>
-      <div className="col-md-4 col-10 mx-auto">
-        <div className="card" style={{ width: "18rem" }}>
+      <div className="col-md-6 col-sm-12 col-lg-4 mx-auto">
+        <div className="card">
           <img
             src={props.cimgsrc}
             className="card-img-top"

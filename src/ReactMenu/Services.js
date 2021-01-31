@@ -10,7 +10,7 @@ const Services = () => {
       </div>
       <div className="container-fluid mb-5">
         <div className="row gy-5">
-          <div className="col-10  mx-auto">
+          <div className="col-lg-10 col-md-10 col-sm-10 mx-auto">
             <div className="row">
               {Cdata.map((val, index) => {
                 return (
